@@ -47,7 +47,7 @@ If you would like to take a look at the unit tests run with Continuous Integrati
 
 Below, we review the three main configurations of the model that we anticipate being used. However, in the `examples` directory, you can find further examples conducting the statistical calibration, creating posterior model hindcasts and projections, and downscaling these hindcasts and projections to local sea-level changes. Those examples are in Jupyter notebooks. To open and run one, you will need to clone or fork the MimiBRICK.jl repository. Then, navigate to it in the Julia terminal and run:
 ```julia
-using Pkg; Pkg.add(IJulia)
+using Pkg; Pkg.add("IJulia")
 using IJulia; notebook(dir="examples")
 ```
 You can then select and run the Jupyter notebook of your chosing in the Jupyter browser window (which will open in a web browser).
